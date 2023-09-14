@@ -1,0 +1,59 @@
+/* LoginWidget.css */
+
+.login-widget {
+  background-color: white;
+  width: 422.64px;
+  height: 347.91px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+}
+
+.input-field {
+  width: 356.77px;
+  height: 43.91px;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #EAEAEA;
+}
+
+.sign-in-button {
+  element.style {
+    width: 356.7px;
+    height: 43.91px;
+    background: #4285F4;
+    border-radius: 10px;
+}
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-button:hover {
+  background-color: #357ABD;
+}
+
+/* Updated styles for login-widget-wrapper */
+.login-widget-wrapper {
+  display: flex;
+  flex-direction: column; /* Change to column to stack h1 and login widget vertically */
+  align-items: center;
+  justify-content: center; /* Center both horizontally and vertically */
+  min-height: 100vh;
+  width:100%;
+  background-color: #F8FAFF;
+}
+
+/* Style for the h1 tag */
+.login-widget-wrapper h1 {
+  margin-bottom: 20px; /* Add some spacing below the h1 tag */
+}
+
+.login-widget-wrapper h2 {
+  margin-bottom: 20px;
+}
